@@ -65,7 +65,6 @@ public class emote : MonoBehaviour
                         while (type == newType)
                         {
                             newType = emoteManager.giveRandomEmote();
-                            Debug.Log("pop");
                         }
 
                         type = newType;

@@ -31,6 +31,8 @@ public class SpaceManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+
         scoreActual = 0;
         menu.SetActive(true);
         victory.SetActive(false);
